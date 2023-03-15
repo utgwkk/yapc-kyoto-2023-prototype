@@ -6,13 +6,13 @@
 $ cat 01-prototype.pl
 ```
 
-## syntax check
+### syntax check
 
 ```
 $ perl -c 01-prototype.pl
 ```
 
-## warnings有効にしつつsyntax check
+### warnings有効にしつつsyntax check
 
 ```
 $ perl -cw 01-prototype.pl
