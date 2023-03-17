@@ -35,3 +35,4 @@ inc/
 /*.zip
 
 local/
+.perl-version
