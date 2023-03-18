@@ -21,5 +21,5 @@ $ perl -cw 01-prototype.pl
 ## 02-list-moreutils-zip6.pl
 
 ```
-$ perl -I local/lib/perl5/ 02-list-moreutils-zip6.pl
+$ carmel exec perl 02-list-moreutils-zip6.pl
 ```
