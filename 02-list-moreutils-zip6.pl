@@ -1,8 +1,14 @@
 use strict;
 use warnings;
+use feature 'say';
 
 use Data::Dumper;
 use List::MoreUtils qw(zip6);
+
+# コンパイルエラーになってもprototypeは出力されるように
+BEGIN {
+    say prototype(\&zip6);
+}
 
 my @xs = (1);
 
